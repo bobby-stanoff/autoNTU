@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Autofill NTU Danh gia",
+    "description": "tu dong dien danh gia ntu",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+          "js": ["script.js"],
+          "matches": [
+            "https://qldt.ntu.edu.vn//sinhvien/danhgiahocphan/*",
+            "https://sinhvien.ntu.edu.vn/sinhvien/danhgiahocphan/*"
+          ]
+        }
+      ]
+  }
