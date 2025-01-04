@@ -1,6 +1,6 @@
 
 
-var allowedValues = [249,253,257,170,186,196,206,216,226,236,245,181,191,201,211,221,231,241,176];
+var allowedValues = [249,253,257,170,186,196,206,216,226,236,245,181,191,201,211,221,231,241,176,1234,1279,1283];
 var filteredInputs = [];
 var submitBtn = document.querySelector("#btnApply");
 
